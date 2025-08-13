@@ -22,5 +22,4 @@ fun main() {
 
     consoleController.start()
 
-    repository.showAll()
 }
