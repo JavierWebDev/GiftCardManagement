@@ -1,5 +1,5 @@
 
-````markdown
+
 # GiftCard Management (Arquitectura Hexagonal)
 
 Este proyecto es una aplicación de consola en **Kotlin** para gestionar tarjetas de regalo (GiftCards) siguiendo el patrón de **Arquitectura Hexagonal**.  
@@ -7,7 +7,7 @@ Está pensado como un ejercicio práctico para separar responsabilidades y enten
 
 ## 📂 Estructura del proyecto
 
-```plaintext
+```
 src/main/kotlin
 ├── Main.kt                         # Punto de entrada de la aplicación
 ├── core                             # Capa central (lógica de negocio)
@@ -25,7 +25,7 @@ src/main/kotlin
 │   │   └── ConsoleController.kt
 │   └── out/memory                   # Persistencia en memoria
 │       └── MemoryGiftCardRepository.kt
-````
+```
 
 ## Arquitectura Hexagonal
 
